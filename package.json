@@ -1,0 +1,12 @@
+{
+  "name": "vulnerable-project",
+  "version": "1.0.0",
+  "description": "A sample project with known vulnerabilities",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "lodash": "4.17.15"  // Version 4.17.15 of lodash has known vulnerabilities
+  }
+}

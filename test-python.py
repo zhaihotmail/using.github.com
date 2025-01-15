@@ -1,2 +1,0 @@
-import aws
-print(adfaf)
